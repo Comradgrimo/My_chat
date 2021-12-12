@@ -1,0 +1,44 @@
+[{
+ "action": "authenticate",
+ "time": "time",
+        "user": {
+                "account_name": "account_name",
+                "password":     "account_pass"
+        }
+},
+
+{
+    "name": "response",
+    "response": "code",
+    "alert":""
+},
+
+  {
+    "action": "quit",
+    "client_name" : "name"
+},
+
+{
+        "action": "presence",
+        "time": "time",
+        "type": "status",
+        "user": {
+                "account_name":  "account_name",
+                "status":      "Yep, I am here!"
+        }
+},
+  {
+    "action": "msg",
+    "time": "time",
+    "to": "account_name",
+    "from": "account_name",
+    "encoding": "utf-8",
+    "message": "message"
+},
+  {
+    "action": "get_contacts",
+    "time": "time",
+    "user_login": "login"
+}
+
+  ]
